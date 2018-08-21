@@ -1,0 +1,81 @@
+
+body {
+	background-repeat: no-repeat;
+	background-image:
+		url("http://www.adhecouvrir.fr/images/Image/branche-cerisier-2_1406455116.png");
+	background-attachement: fixed;
+	background-position: left top;
+	/*background-color: lavenderblush*/;
+	text-align: center;
+}
+
+h1 {
+	font-family: Trattatello, fantasy;
+	color: lightpink;
+	font-size: 500%;
+}
+
+li {
+	font-family: Arial;
+	list-style-type: none;
+	background-color: lightsteelblue;
+	opacity: 0.7;
+	padding: 15px 15px 15px 15px;
+	margin: 20px 20px 20px 20px;
+	border-radius: 5px;
+	color: linen;
+	font-weight: bold;
+	border: 1px solid black;
+}
+
+input[type="submit"] {
+	border-radius: 20px;
+	padding: 10px 10px 10px 10px;
+	font-size: 100%;
+	box-shadow: 0 5px #ff80c0;
+	cursor: pointer;
+	outline: none;
+}
+
+input[type="submit"]:hover {
+	background-color: #a8bfe3;
+	color: white;
+}
+
+input[type="text"] {
+	border-radius: 3px;
+	padding: 10px 10px 10px 10px;
+	margin: 20px 20px 20px 20px;
+}
+
+div#menu {
+	float:left;
+	width:100px;
+	height:400px;
+	background-color:#FF6699;
+	}
+
+div#Conteneur{
+	width:600px;
+	height:400px;
+	background-color:lightpink;
+	font-size: 150%;
+}
+div#Element1 {
+	width:100px;
+	height:200px;
+	background-color:lavenderblush;
+	opacity: 0.7;
+	border-radius: 5px;
+	font-family: Trattatello, fantasy;
+	font-size: 100%;
+	}
+div#Element2 {
+	width:100px;
+	height:200px;
+	background-color:linen;
+	opacity: 0.7;
+	border-radius: 5px;
+	font-family: Trattatello, fantasy;
+	font-size: 100%;
+	}
